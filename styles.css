@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  --background-color: #bbe1fa;
+  --secondary-color: #1b262c;
+}
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  text-align: right;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+  /* border-bottom-left-radius: 1rem; */
+}
+.navHeading {
+  color: white;
+  text-align: left;
+  margin-bottom: 1rem;
+  padding: 0 0 1rem 0;
+}
+/* .active-text {
+  font-weight: bold;
+} */
+a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: white;
+}
+ul {
+  display: inline;
+  text-align: right;
+}
+li {
+  display: inline;
+  list-style: none;
+}
+h1 {
+  padding: 1rem;
+  text-align: center;
+}
+.Maincontainer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+/* TriangleApp */
+#isTriangleApp {
+  height: 90vh;
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+.angle2,
+.angle1,
+.angle3 {
+  padding: 1rem;
+}
+.inputsFirst {
+  width: 200px;
+  margin-top: 1rem;
+  align-items: center;
+  padding: 0.5rem 0.6rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+#output1 {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+label {
+  padding: 1rem;
+  font-weight: bold;
+}
+.btnLayout {
+  margin-top: 1rem;
+  /* margin-left: 5rem; */
+}
+#checkBtn {
+  max-width: 200px;
+  margin: auto;
+  padding: 0.7rem 0.9rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: white;
+}
+/* quiz App */
+#quizApp {
+  height: 170vh;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+.questionContainer {
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+.question {
+  padding: 1rem;
+}
+.questionImg {
+  max-width: 10%;
+  width: 100px;
+  display: block;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  /* margin-top: 1rem; */
+}
+
+p {
+  font-weight: bold;
+}
+#submitBtn {
+  max-width: 200px;
+  margin-left: 42%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: white;
+  outline: none;
+}
+.options {
+  margin-bottom: 1rem;
+}
+#output2 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+/* hypotenuseApp */
+#hypotenuseApp {
+  height: 90vh;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+.labelA,
+.labelB {
+  padding: 1rem;
+}
+#valueOfA,
+#valueOfB {
+  width: 200px;
+  margin-top: 1rem;
+  padding: 0.5rem 0.6rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 1.5rem;
+}
+#hypotenuseBtn {
+  max-width: 200px;
+  margin: auto;
+  padding: 0.7rem 0.9rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: white;
+}
+#output3 {
+  padding: 1.4rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+/* areaApp */
+#areaApp {
+  height: 90vh;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+.inputFeild {
+  width: 200px;
+  border: 1px solid black;
+  margin-top: 1rem;
+  padding: 0.5rem 0.6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  outline: none;
+}
+
+#calculateAreaBtn {
+  max-width: 200px;
+  margin: auto;
+  padding: 0.7rem 0.9rem;
+  border-radius: 2rem;
+  background-color: var(--secondary-color);
+  /* color: var(--background-color); */
+  color: white;
+  cursor: pointer;
+}
+.baseA {
+  padding: 1rem;
+}
+.appcontainer {
+  padding: 1rem;
+  margin-top: 1.4rem;
+}
+.heightB {
+  padding: 0.8rem;
+}
+#output4 {
+  padding: 1.4rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: var(--primary-color);
+
+  background-color: var(--secondary-color);
+}
+
+.icons {
+  width: 40px;
+  padding: 0.4rem;
+}
+
+.socialMedia {
+  color: white;
+  padding: 0.5rem 0rem 0.6rem 3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.bw {
+  background-color: #f3f4f6;
+}

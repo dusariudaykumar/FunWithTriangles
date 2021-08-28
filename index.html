@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun With Triangles</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navHeading">
+        <a href="https://udaykumardusari.netlify.app/">udaykumar</a>
+      </div>
+      <ul>
+        <li><a class="active-text" href="#isTriangleApp">is Triangle?</a></li>
+        <li><a href="#quizApp">Quiz</a></li>
+        <li><a href="#hypotenuseApp">Hypotenuse</a></li>
+        <li><a href="#areaApp">Area of Triangle</a></li>
+      </ul>
+    </nav>
+
+    <div class="Maincontainer">
+      <div class="firstAppLayout">
+        <div id="isTriangleApp">
+          <h1>Check if angles form a Triangle?</h1>
+          <div class="angle1">
+            <label class="labelLayout" for="angle1">Angle 1</label>
+            <input class="inputsFirst" type="number" />
+          </div>
+          <div class="angle2">
+            <label class="labelLayout" for="angle2">Angle 2 </label>
+            <input class="inputsFirst" type="number" />
+          </div>
+          <div class="angle3">
+            <label class="labelLayout" for="angle3">Angle 3</label>
+            <input class="inputsFirst" type="number" />
+          </div>
+          <div class="btnLayout"><button id="checkBtn">Check</button></div>
+
+          <div id="output1"></div>
+        </div>
+      </div>
+
+      <!-- Quiz App -->
+      <div class="secondAppLayout bw">
+        <div id="quizApp">
+          <h1>Quiz on triangles</h1>
+          <form class="quizForm">
+            <div class="questionContainer">
+              <p class="question">
+                1) What is the third angle for the triangle where angle1 = 45°
+                and angle2 = 45°?
+              </p>
+              <div class="options">
+                <label
+                  ><input
+                    type="radio"
+                    name="questionOne"
+                    value="obtuse"
+                  />obtuse</label
+                >
+              </div>
+              <div class="options">
+                <label
+                  ><input
+                    type="radio"
+                    name="questionOne"
+                    value="acute"
+                  />acute</label
+                >
+              </div>
+              <div class="options">
+                <label
+                  ><input
+                    type="radio"
+                    name="questionOne"
+                    value="right angled"
+                  />right angled</label
+                >
+              </div>
+            </div>
+            <div class="questionContainer">
+              <p class="question">
+                2) What is the third angle for the triangle where angle1 = 45°
+                and angle2 = 45°?
+              </p>
+              <div class="options">
+                <label
+                  ><input type="radio" name="questionTwo" value="45°" />45°
+                </label>
+              </div>
+              <div class="options">
+                <label
+                  ><input type="radio" name="questionTwo" value="90°" />90°
+                </label>
+              </div>
+              <div class="options">
+                <label
+                  ><input type="radio" name="questionTwo" value="60°" />60°
+                </label>
+              </div>
+            </div>
+            <div class="questionContainer">
+              <p class="question">3) What type of triangle is this?</p>
+              <img class="questionImg" src="./images/triangle.png" alt="" />
+              <div class="options">
+                <label
+                  ><input
+                    type="radio"
+                    name="questionThree"
+                    value="Equilateral"
+                  />Equilateral
+                </label>
+              </div>
+              <div class="options">
+                <label
+                  ><input
+                    type="radio"
+                    name="questionThree"
+                    value="Isosceles"
+                  />Isosceles</label
+                >
+              </div>
+              <div class="options">
+                <label
+                  ><input
+                    type="radio"
+                    name="questionThree"
+                    value="Obtuse"
+                  />Obtuse</label
+                >
+              </div>
+            </div>
+          </form>
+          <div class="btnLayout"><button id="submitBtn">Submit</button></div>
+          <div id="output2"></div>
+        </div>
+      </div>
+
+      <!-- Hypotenuse App -->
+
+      <div class="thirdAppLayout">
+        <div id="hypotenuseApp">
+          <h1>Calculate Hypotenuse of a triangle</h1>
+          <div class="hypoContainer">
+            <div class="labelA">
+              <label for="">Enter base value (a) =</label>
+              <input id="valueOfA" type="number" />
+            </div>
+            <div class="labelB">
+              <label for="">Enter base value (b) =</label>
+              <input id="valueOfB" type="number" />
+            </div>
+            <div class="btnLayout">
+              <button id="hypotenuseBtn">Calculate Hypotenuse</button>
+            </div>
+            <div id="output3"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Area App -->
+      <div class="fourthAppLayout bw">
+        <div id="areaApp">
+          <h1 class="heading">Calculate Area of a triangle</h1>
+          <div class="appcontainer">
+            <div class="baseA">
+              <label for="">Enter base of a triangle</label>
+              <input type="number" class="inputFeild" />
+            </div>
+            <div class="heightB">
+              <label for="">Enter height of a triangle</label>
+              <input type="number" class="inputFeild" />
+            </div>
+            <div class="btnLayout">
+              <button id="calculateAreaBtn">Calculate Area</button>
+            </div>
+            <div id="output4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="socialMedia">Social Media</div>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/udaykumar_dusari/"
+            ><img class="icons" src="./images/instagram.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/dusari-uday-kumar-bb2543207/"
+            ><img class="icons" src="./images/linkedin .png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/dusariudaykumar"
+            ><img class="icons" src="./images/github.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/UdayKumarDusari"
+            ><img class="icons" src="./images/twitter.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
